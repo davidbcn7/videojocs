@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ca">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacte - Videojocs.cat</title>
+        <link href="css/css1.css" rel="stylesheet" type="text/css"/>
+        <link rel="icon" type="image/x-icon" href="/imatges/favicon.ico">
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="imatges/logo.svg" alt="Logo de videojocs.cat" href="index.html">
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inici</a></li>
+                    <li><a href="1.html">Novetats</a></li>
+                    <li><a href="2.html">Enquestes</a></li>
+                    <li><a href="3.html">Ofertes</a></li>
+                    <li><a class="actiu" href="contacte.html">Contacte</a></li>
+                </ul>
+            </nav>
+        </header>
+        <br><br>
+        <form class="contacte" action="#" target="" method="get">
+
+            <label for="nom">Nom</label>
+            <input type="text" name="nom" id="nom" placeholder="Escriu el teu nom"/>
+        
+            <label for="cognoms">Cognom</label>
+            <input type="text" name="cognoms" id="cognoms" placeholder="Cognom/s"/>
+        
+            <label for="email" />Email</label>
+            <input type="email" name="email" id="email" placeholder="exemple@gmail.com" required />
+        
+            <label for="assumpte">Assumpte</label>
+            <input type ="text" name="Assumpte" id="Assumpte" placeholder="Títol"/>
+            <br><br>
+            <label for="missatge">Missatge</label>
+            <textarea name="missatge" for="missatge" placeholder="Màxim 300 caràcters" maxlength="300"></textarea>
+            
+            <input type="submit" name="enviar" value="Contacta"/>
+        </form>
+    </body>
+</html>
